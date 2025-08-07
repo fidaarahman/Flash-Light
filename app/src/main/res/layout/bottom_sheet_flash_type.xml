@@ -40,7 +40,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="@string/rhythm"
+=======
+            android:text="Rhythm"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             android:textSize="16sp"
             android:textColor="@android:color/white"
             android:layout_weight="1"/>
@@ -73,7 +77,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:text="@string/continuous"
+=======
+                    android:text="Continuous"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                     android:textSize="16sp"
                     android:textColor="@android:color/white"
                     android:layout_weight="1"/>

@@ -36,7 +36,10 @@ android {
     buildFeatures {
         viewBinding = true
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 }
 
 dependencies {
@@ -61,6 +64,9 @@ dependencies {
     implementation ("androidx.camera:camera-camera2:1.3.0")
     implementation ("androidx.camera:camera-lifecycle:1.3.0")
     implementation ("androidx.camera:camera-view:1.3.0")
+<<<<<<< HEAD
 
     implementation("com.github.bumptech.glide:glide:4.16.0")
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 }

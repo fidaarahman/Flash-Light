@@ -1,5 +1,6 @@
 package com.threedev.flashlight
 
+<<<<<<< HEAD
 import android.content.Context
 import android.content.Intent
 import android.os.Build
@@ -7,6 +8,10 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import androidx.activity.enableEdgeToEdge
+=======
+import android.os.Bundle
+import android.view.Menu
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -17,6 +22,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+<<<<<<< HEAD
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.threedev.flashlight.Services.NotificationForegroundService
@@ -29,10 +35,19 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
+=======
+import com.threedev.flashlight.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
+<<<<<<< HEAD
         enableEdgeToEdge()
         setContentView(binding.root)
 
@@ -66,6 +81,19 @@ class MainActivity : AppCompatActivity() {
         val context = AppController.setAppLocale(newBase)
         super.attachBaseContext(context)
     }
+=======
+        setContentView(binding.root)
+        supportActionBar?.hide()
+
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        val navController = findNavController(R.id.nav_host_fragment_content_main)
+
+
+        binding.bottomNavigation.setupWithNavController(navController)
+    }
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 
 }

@@ -12,10 +12,17 @@ class SmsReciver : BroadcastReceiver() {
     private var speed: Long = 300
 
     override fun onReceive(context: Context, intent: Intent) {
+<<<<<<< HEAD
         if (SessionManager.getBool(SessionManager.MAIN_TOGGLE, true)) {
             if (SessionManager.getBool(SessionManager.INCOMING_SMS, false)) {
                 if (intent.action == "android.provider.Telephony.SMS_RECEIVED") {
                     if (shouldFlash(context)) {
+=======
+        if (SessionManager.getBool(SessionManager.MAIN_TOGGLE, false)) {
+            if (SessionManager.getBool(SessionManager.INCOMING_SMS, false)) {
+                if (intent.action == "android.provider.Telephony.SMS_RECEIVED") {
+                    if (shouldFlash(context)) { // ✅ Check battery before flashing
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                         val bundle: Bundle? = intent.extras
                         try {
                             if (bundle != null) {

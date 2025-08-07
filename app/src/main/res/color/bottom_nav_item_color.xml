@@ -1,5 +1,9 @@
 <!-- res/color/nav_item_color.xml -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
     <item android:color="@color/active_color" android:state_checked="true"/>
+=======
+    <item android:color="#9028FF" android:state_checked="true"/>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <item android:color="@color/gray"/>
 </selector>

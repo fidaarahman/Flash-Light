@@ -5,6 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+=======
+    android:background="#1E1E1E"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     tools:context=".ui.setting.SettingFragment">
 
     <ScrollView
@@ -16,23 +20,36 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:orientation="vertical">
 
             <!-- Do Not Disturb Section -->
             <androidx.cardview.widget.CardView
+=======
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Do Not Disturb Section -->
+            <LinearLayout
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 android:id="@+id/ll_dont_distrub"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/card_background"
                 android:orientation="vertical"
+<<<<<<< HEAD
                 android:layout_margin="@dimen/_8sdp"
                 app:cardCornerRadius="12dp"
                 android:elevation="@dimen/_8sdp"
+=======
+                android:padding="16dp"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 android:layout_marginBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:orientation="vertical"
                     android:padding="12dp">
 
@@ -119,10 +136,50 @@
                 android:orientation="vertical"
                 android:layout_margin="@dimen/_8sdp"
                 app:cardCornerRadius="12dp">
+=======
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/dontdsturb_icone"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/do_not_disturb"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+
+                    <Switch
+                        android:id="@+id/switch_do_not_disturb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turn_off_in_this_time"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="8dp" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:orientation="vertical"
                     android:elevation="@dimen/_8sdp"
                     android:padding="12dp">
@@ -159,10 +216,26 @@
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/line_color" />
+=======
+                    android:orientation="horizontal"
+                    android:layout_marginTop="4dp">
+
+                    <EditText
+                        android:id="@+id/et_from"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/from"
+                        android:background="@drawable/input_background"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:text="@string/turn_off_if_battery_below"
                         android:textSize="14sp"
                         android:layout_marginTop="8dp" />
@@ -183,6 +256,87 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+=======
+                        android:text="@string/to"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginHorizontal="8dp" />
+
+                    <EditText
+                        android:id="@+id/et_to"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/to"
+                        android:background="@drawable/input_background"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_battery_saver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/battery_icone"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/battery_save"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+
+                    <Switch
+                        android:id="@+id/switch_battery_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turn_off_if_battery_below"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="8dp" />
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/slider_flash_speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:value="10"
+                    android:valueFrom="10"
+                    android:valueTo="100"
+                    android:stepSize="1"
+                    style="@style/CustomSlider"/>
+            </LinearLayout>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
             <LinearLayout
                 android:id="@+id/ll_disab_phone"
@@ -192,7 +346,12 @@
                 android:orientation="horizontal"
                 android:visibility="gone"
                 android:gravity="center_vertical"
+<<<<<<< HEAD
                 android:layout_marginTop="16dp">
+=======
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                 <ImageView
                     android:layout_width="24dp"
@@ -214,7 +373,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             <LinearLayout
                 android:id="@+id/ll_enable_flash"
                 android:layout_width="match_parent"
@@ -255,12 +417,17 @@
                     android:textColor="@android:color/white"
                     android:layout_marginTop="4dp"/>
             </LinearLayout>
+<<<<<<< HEAD
 
             <androidx.cardview.widget.CardView
+=======
+            <LinearLayout
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 android:id="@+id/ll_Changelanguage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+<<<<<<< HEAD
                 app:cardCornerRadius="12dp"
                 android:layout_margin="@dimen/_8sdp"
                 android:layout_marginTop="@dimen/_8sdp"
@@ -299,6 +466,39 @@
                         android:contentDescription="Forward icon" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+=======
+                android:background="@drawable/card_background"
+                android:paddingVertical="12dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/language_icone"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:contentDescription="Printer compatible list"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/C1_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/language"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/forward_icone"
+                    app:tint="@color/white"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:contentDescription="Forward icon" />
+            </LinearLayout>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         </LinearLayout>
     </ScrollView>
 

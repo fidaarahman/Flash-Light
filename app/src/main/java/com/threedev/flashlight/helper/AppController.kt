@@ -1,16 +1,20 @@
 package com.threedev.flashlight.helper
 
 import android.app.Application
+<<<<<<< HEAD
 import android.content.Context
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatDelegate
 import java.util.Locale
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 class AppController: Application() {
 
     override fun onCreate() {
         super.onCreate()
         SessionManager.with(this)
+<<<<<<< HEAD
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
     }
 
@@ -27,5 +31,7 @@ class AppController: Application() {
 
             return context.createConfigurationContext(config)
         }
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     }
 }

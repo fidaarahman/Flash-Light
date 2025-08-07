@@ -12,7 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+<<<<<<< HEAD
         android:padding="8dp"
+=======
+        android:padding="16dp"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         android:gravity="center_vertical">
 
         <!-- App Icon -->
@@ -30,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="16sp"
+<<<<<<< HEAD
             android:text="App Name" />
 
         <!-- Radio Button -->
@@ -37,5 +42,16 @@
             android:id="@+id/rbSelectApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+=======
+            android:textColor="@android:color/black"
+            android:text="App Name" />
+
+        <!-- Radio Button -->
+        <RadioButton
+            android:id="@+id/rbSelectApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     </LinearLayout>
 </androidx.cardview.widget.CardView>

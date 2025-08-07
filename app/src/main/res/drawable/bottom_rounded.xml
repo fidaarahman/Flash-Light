@@ -5,9 +5,15 @@
     <gradient
         android:angle="270"
         android:type="linear"
+<<<<<<< HEAD
         android:startColor="@color/colorPink"
         android:centerColor="@color/colorPink"
         android:endColor="@color/colorPink"/>
+=======
+        android:startColor="#009EFF"
+        android:centerColor="#009EFF"
+        android:endColor="#009EFF"/>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <corners
         android:bottomLeftRadius="5dp"
         android:bottomRightRadius="5dp"

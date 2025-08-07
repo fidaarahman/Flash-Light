@@ -40,6 +40,10 @@
     <fragment
         android:id="@+id/screenlight"
         android:name="com.threedev.flashlight.ui.ScreenLightFragment"
+<<<<<<< HEAD
         android:label="@string/screen_light"
+=======
+        android:label="Screen Light"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         tools:layout="@layout/fragment_screen_light" />
 </navigation>

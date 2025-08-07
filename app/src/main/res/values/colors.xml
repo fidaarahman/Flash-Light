@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="purple_200">#FFFF1493</color>
     <color name="purple_500">#FFFF1493</color>
     <color name="purple_700">#FFFF1493</color>
+=======
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0d48a1</color>
     <color name="gray">#8A8A8A</color>
+<<<<<<< HEAD
     <color name="light_yellow">#CDCB63</color>
     <color name="gnt_red">#FF0000</color>
+=======
+        <color name="light_yellow">#CDCB63</color>
+        <color name="gnt_red">#FF0000</color>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <color name="lighter_gray">#B0B0B0</color>
     <color name="holo_orange_light">#ffffbb33</color>
     <color name="orange">#e35500</color>
@@ -23,6 +34,7 @@
     <color name="text_yellow">#E4AD06</color>
     <color name="colorCyan">#00FFFF</color>
     <color name="colorPink">#FF1493</color>
+<<<<<<< HEAD
 
 
     <color name="circle_bg_color">#B1B0B0</color>
@@ -32,4 +44,6 @@
     <color name="active_color">#000000</color>
     <color name="in_active_color">#D5D5D5</color>
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 </resources>

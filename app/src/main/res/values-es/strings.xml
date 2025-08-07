@@ -23,6 +23,10 @@
     <string name="notification_and_sms">Notificaciones y SMS</string>
     <string name="flashing_type">Tipo de flash</string>
     <string name="flash_speed">Velocidad del flash</string>
+<<<<<<< HEAD
+=======
+    <string name="continuous">Continuo</string>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <string name="shortcut">Atajo</string>
     <string name="camera">Cámara</string>
     <string name="screen">Pantalla</string>
@@ -68,6 +72,7 @@
     <string name="shr">Compartir</string>
     <string name="share_des">El enlace de invitación a la aplicación se compartirá con tu amigo. Gracias por gustarte nuestra aplicación. ¿Estás seguro?</string>
     <string name="share_app_message">Serás redirigido a nuestra cuenta de Play Store.\n ¿Estás seguro?</string>
+<<<<<<< HEAD
     <string name="incoming_call_or_notifications">Eingehender Anruf oder Benachrichtigungen</string>
     <string name="flash_alert">Flash-Alarm</string>
     <string name="flashing_to_music">Blinken zur Musik</string>
@@ -77,4 +82,6 @@
     <string name="rhythm">Rhythmus</string>
 
     <string name="screen_light">Luz de pantalla</string>
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 </resources>

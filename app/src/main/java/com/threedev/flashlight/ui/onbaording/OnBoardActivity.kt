@@ -1,5 +1,6 @@
 package com.threedev.flashlight.ui.onbaording
 
+<<<<<<< HEAD
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -8,11 +9,20 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+=======
+import android.content.Intent
+import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 import androidx.viewpager.widget.ViewPager
 import com.threedev.flashlight.MainActivity
 import com.threedev.flashlight.R
 import com.threedev.flashlight.databinding.ActivityOnBoardBinding
+<<<<<<< HEAD
 import com.threedev.flashlight.helper.AppController
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 class OnBoardActivity : AppCompatActivity() {
 
@@ -21,6 +31,7 @@ class OnBoardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityOnBoardBinding.inflate(layoutInflater)
+<<<<<<< HEAD
         enableEdgeToEdge()
         setContentView(binding.root)
 
@@ -29,6 +40,10 @@ class OnBoardActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+=======
+        setContentView(binding.root)
+
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         hideSystemUI()
 
         val layouts = intArrayOf(
@@ -103,9 +118,12 @@ class OnBoardActivity : AppCompatActivity() {
             hideSystemUI()
         }
     }
+<<<<<<< HEAD
     override fun attachBaseContext(newBase: Context) {
         val context = AppController.setAppLocale(newBase)
         super.attachBaseContext(context)
     }
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 }

@@ -5,6 +5,7 @@
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
+<<<<<<< HEAD
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -12,10 +13,24 @@
 <!--    <uses-permission android:name="android.permission.RECEIVE_SMS" />-->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+=======
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
     <queries>
         <intent>
             <action android:name="android.intent.action.MAIN" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             <category android:name="android.intent.category.LAUNCHER" />
         </intent>
     </queries>
@@ -67,6 +82,7 @@
             </intent-filter>
         </receiver>
         <receiver
+<<<<<<< HEAD
             android:name=".helper.BootReceiver"
             android:enabled="true"
             android:exported="true"
@@ -85,18 +101,32 @@
 <!--        </receiver>-->
         <service
             android:name=".Services.NotificationService"
+=======
+            android:name=".helper.SmsReciver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".helper.NotificationService"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             android:exported="true"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
+<<<<<<< HEAD
 
         <service
             android:name=".Services.NotificationForegroundService"
             android:exported="false"
             android:foregroundServiceType="specialUse"
             tools:ignore="ForegroundServicePermission" />
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     </application>
 
 </manifest>

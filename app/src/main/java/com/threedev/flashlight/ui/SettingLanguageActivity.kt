@@ -6,16 +6,23 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+<<<<<<< HEAD
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+=======
+import androidx.appcompat.app.AppCompatActivity
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.threedev.flashlight.MainActivity
 import com.threedev.flashlight.R
 import com.threedev.flashlight.adapters.SettingLangaugeAdapter
 import com.threedev.flashlight.databinding.ActivitySettingLanguageBinding
+<<<<<<< HEAD
 import com.threedev.flashlight.helper.AppController
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 import com.threedev.flashlight.helper.LocaleHelper
 
 
@@ -28,6 +35,7 @@ class SettingLanguageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
+<<<<<<< HEAD
         enableEdgeToEdge()
         binding = ActivitySettingLanguageBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -38,6 +46,13 @@ class SettingLanguageActivity : AppCompatActivity() {
             insets
         }
 
+=======
+
+        binding = ActivitySettingLanguageBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // Define the list of languages
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         languages = listOf(
             Language("English", R.drawable.english, "en"),
             Language("Arabic", R.drawable.arabic, "ar"),
@@ -74,6 +89,10 @@ class SettingLanguageActivity : AppCompatActivity() {
         }
     }
 
+<<<<<<< HEAD
+=======
+    // Apply the selected language
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     private fun applyLanguage(languageCode: String) {
         // Update app locale
         LocaleHelper.updateLocaleLanguage(this, languageCode)
@@ -88,20 +107,31 @@ class SettingLanguageActivity : AppCompatActivity() {
         navigateToMainActivity()
     }
 
+<<<<<<< HEAD
+=======
+    // Save the selected language in SharedPreferences
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     private fun saveLanguagePreference(languageCode: String) {
         val sharedPreferences = getSharedPreferences("AppPreferences", Context.MODE_PRIVATE)
         sharedPreferences.edit().putString("language_code", languageCode).apply()
     }
 
+<<<<<<< HEAD
+=======
+    // Navigate to MainActivity
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     private fun navigateToMainActivity() {
         startActivity(
             Intent(this, MainActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         )
         finish()
     }
+<<<<<<< HEAD
     override fun attachBaseContext(newBase: Context) {
         val context = AppController.setAppLocale(newBase)
         super.attachBaseContext(context)
     }
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 }

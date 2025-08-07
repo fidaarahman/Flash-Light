@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".ui.home.HomeFragment">
 
     <com.github.angads25.toggle.widget.LabeledSwitch
@@ -17,20 +23,44 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:on="false" />
+=======
+    android:background="#1E1E1E"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.github.angads25.toggle.widget.LabeledSwitch
+        android:id="@+id/main_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:on="false"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
     <ScrollView
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/main_switch">
+=======
+        app:layout_constraintTop_toBottomOf="@id/main_toggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
         <LinearLayout
             android:id="@+id/ll_main"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -39,34 +69,68 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_8sdp"
                 app:cardCornerRadius="12dp"
+=======
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/cv_incoming_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                android:background="@drawable/card_background"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+<<<<<<< HEAD
                     android:padding="12dp">
+=======
+                    android:padding="16dp">
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
+<<<<<<< HEAD
                         app:tint="@color/icon_tint"
                         android:src="@drawable/call_icone" />
+=======
+                        android:src="@drawable/call_icone"
+                        app:tint="@color/white" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:layout_marginStart="8dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppin_regular"
                         android:text="@string/incoming_call"
                         android:textSize="15sp" />
+=======
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/incoming_call"
+                        android:textSize="15sp"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/poppin_regular"/>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                     <com.github.angads25.toggle.widget.LabeledSwitch
                         android:id="@+id/switch_incoming_call"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:colorBorder="@color/colorAccent" />
+<<<<<<< HEAD
 
                 </LinearLayout>
 
@@ -163,6 +227,103 @@
                 android:layout_margin="@dimen/_8sdp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
+=======
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cv_notification_sms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/card_background"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- First Row (Notification + Switch) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/notification_icone"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/notification_and_sms"
+                        android:textSize="15sp"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/poppin_regular" />
+
+                    <com.github.angads25.toggle.widget.LabeledSwitch
+                        android:id="@+id/switch_notification_sms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:colorBorder="@color/colorAccent" />
+                </LinearLayout>
+
+                <!-- White Line Separator -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="0dp"/>
+
+                <!-- Second Row (Select App + Forward Icon) -->
+                <LinearLayout
+                    android:id="@+id/ll_select_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/tv_select_app"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/select_app"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppin_regular"
+                        android:textColor="#FFFFFF" />
+
+                    <ImageView
+                        android:id="@+id/iv_forward"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@drawable/forward_icone"
+                        app:tint="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/cv_flash_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:background="@drawable/card_background"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -179,12 +340,18 @@
                         <ImageView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+<<<<<<< HEAD
                             app:tint="@color/icon_tint"
                             android:src="@drawable/flash_icone2" />
+=======
+                            android:src="@drawable/flash_icone2"
+                            app:tint="@color/white" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
+<<<<<<< HEAD
                             android:layout_marginStart="8dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppin_regular"
@@ -198,19 +365,42 @@
                             android:fontFamily="@font/poppin_regular"
                             android:text="@string/continuous"
                             android:textSize="14sp" />
+=======
+                            android:layout_weight="1"
+                            android:layout_marginStart="8dp"
+                            android:text="@string/flashing_type"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppin_regular"
+                            android:textColor="#FFFFFF"
+                           />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/continuous"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppin_regular"
+                            android:textColor="#FFFFFF" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                         <ImageView
                             android:id="@+id/iv_forwd"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginStart="8dp"
+<<<<<<< HEAD
                             app:tint="@color/icon_tint"
                             android:src="@drawable/forward_icone" />
+=======
+                            android:src="@drawable/forward_icone"
+                            app:tint="@color/white" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                     </LinearLayout>
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
+<<<<<<< HEAD
                         android:background="@color/line_color"
                         android:layout_marginTop="@dimen/_20sdp"
                         android:layout_marginBottom="0dp" />
@@ -220,33 +410,66 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_15sdp"
                         android:orientation="horizontal">
+=======
+                        android:background="@android:color/white"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginBottom="0dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_15sdp">
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                         <ImageView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+<<<<<<< HEAD
                             app:tint="@color/icon_tint"
                             android:src="@drawable/speed_icone" />
+=======
+                            android:src="@drawable/speed_icone"
+                            app:tint="@color/white" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
+<<<<<<< HEAD
                             android:layout_marginStart="8dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppin_regular"
                             android:text="@string/flash_speed"
                             android:textSize="15sp" />
+=======
+                            android:layout_weight="1"
+                            android:layout_marginStart="8dp"
+                            android:text="@string/flash_speed"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/poppin_regular"
+                            android:textColor="#FFFFFF"
+                          />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
                         <TextView
                             android:id="@+id/tv_speed"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+<<<<<<< HEAD
                             android:fontFamily="@font/poppin_regular"
                             android:text="@string/_50_ms"
                             android:textSize="16sp" />
+=======
+                            android:text="@string/_50_ms"
+                            android:fontFamily="@font/poppin_regular"
+                            android:textSize="16sp"
+                            android:textColor="#FFFFFF" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                     </LinearLayout>
 
                     <com.google.android.material.slider.Slider
                         android:id="@+id/slider_flash_speed"
+<<<<<<< HEAD
                         style="@style/CustomSlider"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -259,17 +482,39 @@
                         android:valueTo="300" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+=======
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:value="10"
+                    android:valueFrom="10"
+                    android:valueTo="100"
+                    android:stepSize="1"
+                        style="@style/CustomSlider"/>
+                </LinearLayout>
+            </LinearLayout>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
             <Button
                 android:id="@+id/btn_test"
                 android:layout_width="@dimen/_120sdp"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:backgroundTint="@color/colorAccent"
                 android:gravity="center"
                 android:text="@string/test"
                 android:textStyle="bold" />
+=======
+                android:layout_marginTop="16dp"
+                android:text="@string/test"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white" />
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

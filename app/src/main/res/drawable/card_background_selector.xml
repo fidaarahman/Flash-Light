@@ -4,18 +4,30 @@
     <!-- Selected State: White Background, Green Border -->
     <item android:state_selected="true">
         <shape>
+<<<<<<< HEAD
             <solid android:color="@android:color/white" />
             <stroke android:width="2dp" android:color="@color/colorPink" />
             <corners android:radius="16dp" />
+=======
+            <solid android:color="@android:color/white"/>
+            <stroke android:color="@color/green" android:width="2dp"/>
+            <corners android:radius="16dp"/>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         </shape>
     </item>
 
     <!-- Unselected State: Gray Background, White Border -->
     <item>
         <shape>
+<<<<<<< HEAD
             <solid android:color="#1E1E1E" />  <!-- Gray Background -->
             <stroke android:width="1dp" android:color="@android:color/white" /> <!-- White Border -->
             <corners android:radius="16dp" />
+=======
+            <solid android:color="#1E1E1E"/>  <!-- Gray Background -->
+            <stroke android:color="@android:color/white" android:width="1dp"/> <!-- White Border -->
+            <corners android:radius="16dp"/>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         </shape>
     </item>
 

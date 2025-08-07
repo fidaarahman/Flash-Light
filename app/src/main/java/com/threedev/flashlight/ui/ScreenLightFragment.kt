@@ -70,7 +70,11 @@ class ScreenLightFragment : Fragment() {
                         View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
                 )
 
+<<<<<<< HEAD
         //(requireActivity() as AppCompatActivity).supportActionBar?.hide()
+=======
+        (requireActivity() as AppCompatActivity).supportActionBar?.hide()
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     }
 
     private fun hideBottomNavigation() {
@@ -82,5 +86,8 @@ class ScreenLightFragment : Fragment() {
         val bottomNav = requireActivity().findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNav?.visibility = View.VISIBLE
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 }

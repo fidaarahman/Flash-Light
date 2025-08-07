@@ -22,6 +22,10 @@
         <string name="notification_and_sms">الإشعارات والرسائل القصيرة</string>
         <string name="flashing_type">نوع الوميض</string>
         <string name="flash_speed">سرعة الفلاش</string>
+<<<<<<< HEAD
+=======
+        <string name="continuous">مستمر</string>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         <string name="shortcut">اختصار</string>
         <string name="camera">الكاميرا</string>
         <string name="screen">الشاشة</string>
@@ -63,6 +67,7 @@
         <string name="privacy_policy">سياسة الخصوصية</string>
         <string name="privacypolicy_Des">سيتم توجيهك إلى المتصفح لفتح سياسة الخصوصية. هل أنت متأكد؟</string>
         <string name="share">مشاركة مع الأصدقاء</string>
+<<<<<<< HEAD
                 <string name="shr">مشاركة</string>
                 <string name="share_des">سيتم مشاركة رابط دعوة التطبيق مع صديقك. شكرًا لك على إعجابك بتطبيقنا. هل أنت متأكد؟</string>
                 <string name="share_app_message">سيتم توجيهك إلى حسابنا في متجر Play.\n هل أنت متأكد؟</string>
@@ -75,6 +80,11 @@
         <string name="continuous">مستمر</string>
         <string name="rhythm">إيقاع</string>
         <string name="screen_light">ضوء الشاشة</string>
+=======
+        <string name="shr">مشاركة</string>
+        <string name="share_des">سيتم مشاركة رابط دعوة التطبيق مع صديقك. شكرًا لك على إعجابك بتطبيقنا. هل أنت متأكد؟</string>
+        <string name="share_app_message">سيتم توجيهك إلى حسابنا في متجر Play.\n هل أنت متأكد؟</string>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 
 </resources>

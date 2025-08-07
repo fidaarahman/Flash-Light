@@ -4,9 +4,13 @@ import Language
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
+<<<<<<< HEAD
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.threedev.flashlight.R
+=======
+import androidx.recyclerview.widget.RecyclerView
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 import com.threedev.flashlight.databinding.ItemLangaugeCardBinding
 import com.threedev.flashlight.helper.SessionManager
 
@@ -40,6 +44,7 @@ class SettingLangaugeAdapter(
 
         // Highlight the selected language
         if (position == selectedPosition) {
+<<<<<<< HEAD
             //binding.tvLanguageName.setTextColor(ContextCompat.getColor(binding.root.context, android.R.color.white))
             binding.cardLanguage.isSelected = true
             binding.cardLanguage.setCardBackgroundColor(ResourcesCompat.getColor(binding.root.context.resources, R.color.colorPink, null))
@@ -47,6 +52,13 @@ class SettingLangaugeAdapter(
             //binding.tvLanguageName.setTextColor(ContextCompat.getColor(binding.root.context, android.R.color.white))
             binding.cardLanguage.isSelected = false
             binding.cardLanguage.setCardBackgroundColor(ResourcesCompat.getColor(binding.root.context.resources, androidx.cardview.R.color.cardview_light_background, null))
+=======
+            binding.tvLanguageName.setTextColor(ContextCompat.getColor(binding.root.context, android.R.color.black))
+            binding.cardLanguage.isSelected = true
+        } else {
+            binding.tvLanguageName.setTextColor(ContextCompat.getColor(binding.root.context, android.R.color.white))
+            binding.cardLanguage.isSelected = false
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         }
 
         // Handle language selection

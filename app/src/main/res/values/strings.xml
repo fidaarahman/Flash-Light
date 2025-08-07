@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Flash Alerts</string>
+=======
+    <string name="app_name">Flash Light</string>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -22,6 +26,10 @@
     <string name="notification_and_sms">Notification and SMS</string>
     <string name="flashing_type">Flashing type</string>
     <string name="flash_speed">Flash speed</string>
+<<<<<<< HEAD
+=======
+    <string name="continuous">Continuous</string>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <string name="shortcut">Shortcut</string>
     <string name="camera">Camera</string>
     <string name="screen">Screen</string>
@@ -53,7 +61,11 @@
     <string name="feedback">FeedBack</string>
     <string name="More_Apps">More Apps</string>
     <string name="Exit_app">Exit App</string>
+<<<<<<< HEAD
 
+=======
+    \
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <string name="moreapp">More App</string>
     <string name="moreapp_des">You will be redirect to our play store account.\n Are your sure?</string>
     <string name="redirect">Redirect</string>
@@ -67,6 +79,7 @@
     <string name="shr">Share</string>
     <string name="share_des">App invite link will be share with your friend. Thanks for like our app. Are your sure?</string>
     <string name="share_app_message">You will be redirected to our Play Store account.\n Are you sure?</string>
+<<<<<<< HEAD
     <string name="incoming_call_or_notifications">Incoming Call or Notifications</string>
     <string name="flash_alert">FLASH ALERT</string>
     <string name="flashing_to_music">FLASHING TO MUSIC</string>
@@ -75,4 +88,6 @@
     <string name="continuous">Continuous</string>
     <string name="rhythm">Rhythm</string>
     <string name="screen_light">Screen Light</string>
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 </resources>

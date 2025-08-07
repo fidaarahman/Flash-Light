@@ -32,7 +32,11 @@
         android:id="@+id/tv_app_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="@string/flash_alert"
+=======
+        android:text="FLASH ALERT"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         android:textSize="22sp"
         android:fontFamily="@font/poppin_regular"
         android:textColor="@android:color/white"
@@ -47,7 +51,11 @@
         android:id="@+id/tv_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="@string/incoming_call_or_notifications"
+=======
+        android:text="Incoming Call or Notifications"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         android:textSize="16sp"
         android:fontFamily="@font/poppin_regular"
         android:textColor="@android:color/white"

@@ -3,7 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="wrap_content">
+=======
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#1E1E1E">
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
     <!-- CardView for Rounded Corners -->
     <androidx.cardview.widget.CardView
@@ -12,7 +18,11 @@
         android:layout_height="56dp"
         app:cardCornerRadius="12dp"
         app:cardElevation="2dp"
+<<<<<<< HEAD
         android:layout_margin="@dimen/_6sdp"
+=======
+        android:background="@drawable/card_background_selector"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +34,10 @@
             android:layout_height="match_parent"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
+<<<<<<< HEAD
+=======
+            android:background="@drawable/card_background_selector"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             android:gravity="center_vertical">
 
             <!-- Language Name -->
@@ -34,6 +48,10 @@
                 android:text="@string/english"
                 android:textSize="16sp"
                 android:fontFamily="@font/poppin_regular"
+<<<<<<< HEAD
+=======
+                android:textColor="@android:color/white"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"/>

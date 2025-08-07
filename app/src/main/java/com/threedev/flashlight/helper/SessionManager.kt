@@ -9,7 +9,10 @@ import com.google.gson.reflect.TypeToken
 
 object SessionManager {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     private val PREF_NAME: String = "FlashLight.pref"
     lateinit var preferences: SharedPreferences
 
@@ -52,6 +55,7 @@ object SessionManager {
         return preferences.getInt(key, defVal)
     }
 
+<<<<<<< HEAD
     fun putSets(key: String, value:Set<String>){
         preferences.edit().putStringSet(key, value).apply()
     }
@@ -60,11 +64,17 @@ object SessionManager {
         return preferences.getStringSet(key, mutableSetOf()) ?: mutableSetOf()
     }
 
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     const val MAIN_TOGGLE: String = "MAIN_TOGGLE_STATE"
     const val INCOMING_CALL_TOGGLE_STATE  = "INCOMING_CALL_TOGGLE_STATE"
     const val INCOMING_SMS  = "INCOMING_SMS_TOGGLE_STATE"
     const val INCOMING_NOTIFICATIONS="INCOMING_NOTIFICATION"
+<<<<<<< HEAD
     const val SELECT_APP="SELECTED_APP_NOTIFICATIONS"
+=======
+    const val SELECT_APP="SELECT_APP_NOTIFICATIONS"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     const val KEY_LOCALE_LANGUAGE = "flash.locale.language"
     const val DND_SETTINGS_STATE = "DND_SETTINGS_STATE"
     const val DND_FROM_TIME = "DND_FROM_TIME"
@@ -73,8 +83,11 @@ object SessionManager {
     const val BATTERY_SAVER_STATE = "battery_saver_state"
     const val BATTERY_SAVER_LEVEL = "battery_saver_level"
     const val FLASH_ALLOWED = "flash_allowed"
+<<<<<<< HEAD
     const val KEY_FLASH_BLINK_SPEED: String = "flash_blink_speed"
     const val FLASH_MODE_RHYTHM: String = "flash_mode_rhythm"
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 
 

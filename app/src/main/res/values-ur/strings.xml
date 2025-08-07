@@ -23,7 +23,11 @@
     <string name="notification_and_sms">نوٹیفیکیشن اور ایس ایم ایس</string>
     <string name="flashing_type">فلیش کی قسم</string>
     <string name="flash_speed">فلیش کی رفتار</string>
+<<<<<<< HEAD
 
+=======
+    <string name="continuous">مسلسل</string>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     <string name="shortcut">شارٹ کٹ</string>
     <string name="camera">کیمرہ</string>
     <string name="screen">اسکرین</string>
@@ -69,6 +73,7 @@
     <string name="shr">شیئر کریں</string>
     <string name="share_des">ایپ دعوتی لنک آپ کے دوست کے ساتھ شیئر کیا جائے گا۔ ہمارے ایپ کو پسند کرنے کے لیے شکریہ۔ کیا آپ یقین رکھتے ہیں؟</string>
     <string name="share_app_message">آپ کو ہمارے پلے اسٹور اکاؤنٹ پر ری ڈائریکٹ کیا جائے گا۔\n کیا آپ یقین رکھتے ہیں؟</string>
+<<<<<<< HEAD
     <string name="incoming_call_or_notifications">آنے والی کال یا نوٹیفیکیشن</string>
     <string name="flash_alert">فلیش الرٹ</string>
     <string name="flashing_to_music">موسیقی پر چمکنا</string>
@@ -79,3 +84,7 @@
     <string name="screen_light">اسکرین لائٹ</string>
 </resources>
 
+=======
+
+</resources>
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889

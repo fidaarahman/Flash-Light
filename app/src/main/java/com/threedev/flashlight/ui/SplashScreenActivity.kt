@@ -1,12 +1,16 @@
 package com.threedev.flashlight.ui
 
+<<<<<<< HEAD
 import android.content.Context
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import android.view.View
+<<<<<<< HEAD
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -15,6 +19,12 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.progressindicator.LinearProgressIndicator
 import com.threedev.flashlight.R
 import com.threedev.flashlight.helper.AppController
+=======
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
+import com.google.android.material.progressindicator.LinearProgressIndicator
+import com.threedev.flashlight.R
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 class SplashScreenActivity : AppCompatActivity() {
 
@@ -23,6 +33,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< HEAD
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash_screen)
         supportActionBar?.hide()
@@ -33,6 +44,11 @@ class SplashScreenActivity : AppCompatActivity() {
             insets
         }
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+=======
+        setContentView(R.layout.activity_splash_screen)
+        supportActionBar?.hide()
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         progressBar = findViewById(R.id.splash_progress_bar)
         progressBar.setIndicatorColor(getColor(R.color.text_yellow))
         progressBar.max = progressMax
@@ -109,6 +125,7 @@ class SplashScreenActivity : AppCompatActivity() {
 //            }
 //        }
 //    }
+<<<<<<< HEAD
 //override fun attachBaseContext(newBase: Context) {
 //    val context = AppController.setAppLocale(newBase)
 //    super.attachBaseContext(context)
@@ -118,5 +135,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val context = AppController.setAppLocale(newBase)
         super.attachBaseContext(context)
     }
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
 }

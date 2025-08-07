@@ -27,10 +27,17 @@ class LanguageAdapter(private val languages: List<Language>, private val onLangu
             ivLanguageFlag.setImageResource(language.flagResId)
 
             if (position == selectedPosition) {
+<<<<<<< HEAD
                 tvLanguageName.setTextColor(ContextCompat.getColor(root.context, R.color.active_color))
                 cardLanguage.isSelected = true
             } else {
                 tvLanguageName.setTextColor(ContextCompat.getColor(root.context, R.color.circle_bg_color))
+=======
+                tvLanguageName.setTextColor(ContextCompat.getColor(root.context, android.R.color.black))
+                cardLanguage.isSelected = true
+            } else {
+                tvLanguageName.setTextColor(ContextCompat.getColor(root.context, android.R.color.white))
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 cardLanguage.isSelected = false
             }
 

@@ -3,8 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:id="@+id/main"
     xmlns:tools="http://schemas.android.com/tools"
+=======
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
     android:padding="16dp">
 
     <!-- Title Text -->
@@ -14,9 +19,14 @@
         android:layout_height="wrap_content"
         android:text="@string/language"
         android:textSize="20sp"
+<<<<<<< HEAD
         android:layout_marginStart="@dimen/_16sdp"
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/black"
+=======
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@android:color/white"
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,7 +41,10 @@
         android:paddingEnd="16dp"
         android:background="@drawable/green_background"
         android:padding="8dp"
+<<<<<<< HEAD
         android:layout_marginEnd="@dimen/_16sdp"
+=======
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 

@@ -37,7 +37,11 @@ class FlashLightFragment : Fragment() {
         val root: View = binding.root
 
         // Load the last selected mode from SessionManager
+<<<<<<< HEAD
         isRhythmMode = SessionManager.getBool(SessionManager.FLASH_MODE_RHYTHM, false)
+=======
+        isRhythmMode = SessionManager.getBool("FLASH_MODE_RHYTHM", false)
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
 
         binding.ivOnLight.setOnClickListener {
             toggleFlashLight()
@@ -65,8 +69,13 @@ class FlashLightFragment : Fragment() {
 
     private fun toggleFlashLight() {
         if (isFlashOn) {
+<<<<<<< HEAD
             FlashLightManager.stopBlinking()
             FlashLightManager.openFlashLight(requireContext(), false)
+=======
+            FlashLightManager.stopBlinking(requireContext())
+            FlashLightManager.OpenFlashLight(requireContext(), false)
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             isFlashOn = false
         } else {
 
@@ -74,7 +83,11 @@ class FlashLightFragment : Fragment() {
             if (isRhythmMode) {
                 FlashLightManager.startBlinking(requireContext(), 500)
             } else {
+<<<<<<< HEAD
                 FlashLightManager.openFlashLight(requireContext(), true)
+=======
+                FlashLightManager.OpenFlashLight(requireContext(), true)
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
             }
         }
     }
@@ -85,11 +98,19 @@ class FlashLightFragment : Fragment() {
             when (flashType) {
                 "Continuous" -> {
                     isRhythmMode = false
+<<<<<<< HEAD
                     SessionManager.putBool(SessionManager.FLASH_MODE_RHYTHM, false)
                 }
                 "Rhythm" -> {
                     isRhythmMode = true
                     SessionManager.putBool(SessionManager.FLASH_MODE_RHYTHM, true)
+=======
+                    SessionManager.putBool("FLASH_MODE_RHYTHM", false)
+                }
+                "Rhythm" -> {
+                    isRhythmMode = true
+                    SessionManager.putBool("FLASH_MODE_RHYTHM", true)
+>>>>>>> 60f676ca937c5aa0453a2918f1d3009a6b80c889
                 }
             }
         }
