@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="active_color">#FFFFFF</color>
+    <color name="circle_bg_color">#222222</color>
+    <color name="icon_tint">#FFFFFF</color>
+    <color name="in_active_color">#2A2A2A</color>
+    <color name="line_color">#222222</color>
+    <color name="tool_bar_bg_color">#222222</color>
+</resources>
